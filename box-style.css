@@ -1,0 +1,206 @@
+body {
+    background: radial-gradient(circle at 100% 100%, rgb(70, 70, 248) 0%, transparent 100%), 
+    radial-gradient(circle at 0% 0%, rgb(175, 175, 247) 0%, transparent 100%) whitesmoke;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box1 {
+    padding: 50px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.text1 {
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.but2 {
+    border-radius: 20px;
+    background: transparent;
+    padding: 10px 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 10px 0px 0px 550px;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.close1 {
+    border-radius: 10px;
+    padding: 5px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    margin: 0 0 0 90px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dialog {
+    border: none;
+    position: fixed;
+    padding: 40px 150px;
+    border-radius: 30px;
+    /* ملاحظة: التدرج اللوني الذي كتبته كان مُلغى بالـ rgba بعده — هذا يحافظ على شكله الحالي */
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxpro {
+    padding: 20px 40px;
+    margin: 10px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2signin1 {
+    text-shadow:
+        0 0 4px  rgba(255,255,255,0.9),
+        0 0 10px rgba(255,255,255,0.7),
+        0 0 20px rgba(255,255,255,0.5),
+        0 0 40px rgba(255,255,255,0.3);
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    padding: 2px 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hart {
+    justify-content: center;
+    display: flex;
+}
+
+.butget {
+    border-radius: 15px;
+    padding: 2px 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    cursor: pointer;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0px 0px 50px;
+}
+
+.getfree {
+    border-radius: 15px;
+    padding: 2px 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    cursor: pointer;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0px 0px 35px;
+}
+.hr{
+    border: none;
+    max-width: 10px;
+}
+.box3{
+    padding: 10px 140px 200px 140px;
+    margin: 30px 10px 10px 10px;
+    backdrop-filter: blur(10%);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 15px;
+}
+.box4{
+    padding: 10px 140px 200px 140px;
+    margin: 30px 100px 10px 100px;
+    backdrop-filter: blur(10%);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 15px;
+}
+.box5{
+    padding: 10px 140px 200px 140px;
+    margin: 30px 10px 10px 10px;
+    backdrop-filter: blur(10%);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 15px;
+}
+.boxall{
+    padding: 0px 200px 160px 200px;
+    margin: 100px -8px 0px -10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+    backdrop-filter: blur(10%);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+.text-more-option{
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 2px 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    cursor: pointer;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0px 0px 0px;
+    padding: 6px 6px 6px 30px;
+}
+.box-section-more{
+    border-radius: 15px;
+    padding: 2px 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    cursor: pointer;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 100px;
+    margin: 10px 10px;
+}
